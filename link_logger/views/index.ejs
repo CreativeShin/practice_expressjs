@@ -1,0 +1,11 @@
+<a href="/">Home</a>
+<a href="/auth">Admin</a>
+<a href="/new">New Link</a>
+<a href="/auth/logout">Logout</a>
+<div>
+    <% for(var i=0; i<logs.length; i++){ %>
+        <%=logs[i].name%>
+        <%=logs[i].link%>
+        <%=logs[i].desc%>
+    <% } %>
+<div>
